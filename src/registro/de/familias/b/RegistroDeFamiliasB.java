@@ -42,7 +42,7 @@ public class RegistroDeFamiliasB {
                  System.out.println(f1.getIntegrante(i).getRol()+": \nNombre: "+f1.getIntegrante(i).getNombre()+"\nEdad:"+f1.getIntegrante(i).getEdad());
                  }else{
                      int j=1;
-                 System.out.println("Hijo : \nNombre: "+f1.getIntegrante(i).getNombre()+"\nEdad:"+f1.getIntegrante(i).getEdad()+"\nGenero: "+f1.getIntegrante(i).getSexo());    
+                 System.out.println("Hijo: \nNombre: "+f1.getIntegrante(i).getNombre()+"\nEdad:"+f1.getIntegrante(i).getEdad()+"\nGenero: "+f1.getIntegrante(i).getSexo());    
                  j++;
                  }}
                 }
@@ -93,9 +93,9 @@ public class RegistroDeFamiliasB {
                   
                 
             }}
-            if (a==0)
+            if (a==0){
                     System.out.println("Integrante inexistente");
-            }else{
+            }}else{
                 System.out.println("Familia inexistente");
             }    
                 
